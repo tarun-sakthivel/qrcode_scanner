@@ -13,8 +13,8 @@ class qrcode_scanner extends StatelessWidget {
     return MaterialApp(
       title: "QR code scanner",
       theme: ThemeData(
-          appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent)),
-      home: const QrScanner(),
+          appBarTheme: AppBarTheme(backgroundColor: Colors.transparent)),
+      home: qrcode_scanner(),
       debugShowCheckedModeBanner: false,
     );
   }
